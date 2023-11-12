@@ -22,9 +22,9 @@ Our data can be found at [Nasdaq.com](https://www.nasdaq.com/market-activity/ind
 This is a publicly available dataset that is updated on a daily basis. Since this dataset is not yet complete, we can divide it up for training and test accuracy on more recent dates.
 
 We have also utilized an additional economic indicies to reflect US and global economic situation, as these indicies are likely presumed to impact stock market directly.
-* [Federal Funds Rate from macrotrends](https://www.macrotrends.net/2015/fed-funds-rate-historical-chart)
-* [US GDP from Federal Reserve Economic Data](https://fred.stlouisfed.org/series/GDP)
-* [MSCI ACWI ETF from Yahoo! finance](https://finance.yahoo.com/quote/ACWI/history?period1=1383868800&period2=1699401600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true&guccounter=1)
+* [Daily Effective Federal Funds Rate from Federal Reserve Economic Data](https://fred.stlouisfed.org/series/EFFR)
+* [Quarterly US GDP from Federal Reserve Economic Data](https://fred.stlouisfed.org/series/GDP)
+* [Daily MSCI ACWI ETF from Yahoo! finance](https://finance.yahoo.com/quote/ACWI/history?period1=1383868800&period2=1699401600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true&guccounter=1)
 
 ## Approach
 We will implement multiple Machine Learning and Deep Learning models to predict/forecast a S&P 500 index at arbitrary point of future.
